@@ -44,6 +44,7 @@ h1{
     align-items: start;
     justify-content: end;
     margin-top: 20px;
+    transition: 0.2s;
 }
 .one{
     background-image: url("../images/mobile/image-deep-earth.jpg");
@@ -128,4 +129,11 @@ footer{
         height: 150px;
 
     }
+    .navbar{
+        background-color: rgba(0, 0, 0, 0.534) !important;
+    }
+}
+.card:hover{
+    filter: blur(2px);
+
 }
