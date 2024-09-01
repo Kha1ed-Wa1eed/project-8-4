@@ -1,0 +1,131 @@
+.divP{
+background-image: url(../images/desktop/image-hero.jpg);
+max-height: 1000px;
+min-height: 650px;
+background-position: center;
+background-size: cover;
+padding-top: 210px;
+}
+nav{
+position: fixed !important;
+width: 100% !important;
+top: 0%;
+}
+.divC{
+    border: 2px solid white;
+    width: 30%;
+    
+    color: white;
+    margin-left:159px ;
+    text-transform:uppercase;
+    font-size:70px;
+}
+
+.divI{
+
+
+    position: relative ;
+    right: 100px;
+    background-color: white;
+    top: 150px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 18px;
+
+}
+h1{
+    text-transform: uppercase;
+}
+.card{
+    width: 300px;
+    height: 450px;
+    display:flex;
+    align-items: start;
+    justify-content: end;
+    margin-top: 20px;
+}
+.one{
+    background-image: url("../images/mobile/image-deep-earth.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.two{
+    background-image: url("../images/mobile/image-night-arcade.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.three{
+    background-image: url("../images/desktop/image-soccer-team.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.four{
+    background-image: url("../images/mobile/image-grid.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.five{
+    background-image: url("../images/mobile/image-from-above.jpg");
+    background-size: cover;
+     background-position: center; 
+     background-repeat: no-repeat;
+}
+.six{
+    background-image: url("../images/mobile/image-pocket-borealis.jpg");
+    background-size: cover;
+     background-position: center; 
+     background-repeat: no-repeat;
+}
+.seven{
+    background-image: url("../images/mobile/image-curiosity.jpg");
+    background-size: cover;
+     background-position: center; 
+     background-repeat: no-repeat;
+}
+.eight{
+    background-image: url("../images/mobile/image-fisheye.jpg");
+    background-size: cover;
+     background-position: center; 
+     background-repeat: no-repeat;
+}
+.name{
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    font-family: serif;
+}
+footer{
+    background-color: black;
+    padding: 35px;
+}
+.ftDiv{
+    word-spacing: 30px;
+}
+.ftA{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+@media(max-width:768px){
+    .divC{
+        width: 90%;
+        margin-left: 0;
+        font-size: 40px;
+        margin:auto;
+    }
+    .divI{
+        position: static;
+        width: 100% !important;
+    }
+    .card{
+        width: 100%;
+        height: 150px;
+
+    }
+}
